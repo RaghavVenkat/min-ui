@@ -38,7 +38,7 @@ body{
         rgba(158,58,109,0.25),
         rgba(243,59,71.0,0.6)),
         url('https://picsum.photos/1920/1080/?random');
-    min-width: 60vw;
+    min-width: 50vw;
     min-height:100vh;
     height:100%;
 }
@@ -46,7 +46,7 @@ body{
 .split-right{
     display: flex;
     flex-direction:column;
-    min-width: 40vw;
+    min-width: 50vw;
     min-height:100vh;
     height:100%;
 }

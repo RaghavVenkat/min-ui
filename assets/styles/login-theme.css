@@ -37,10 +37,12 @@ body{
         rgba(72,58,146,0.8),
         rgba(158,58,109,0.25),
         rgba(243,59,71.0,0.6)),
-        url('https://picsum.photos/1920/1080/?random');
+        url('../imgs/login/wall2.jpg');
     min-width: 60vw;
     min-height:100vh;
     height:100%;
+    background-size: cover;
+    background-position-x: -275px;
 }
 
 .split-right{
@@ -93,7 +95,7 @@ Button Stlyes
     font-weight: 600;
     color: #fff;
     border-radius: 5px;
-    background-image: linear-gradient(to right, #67A2FF 0%, #3A87FF 75%, #2178FF 100%);
+    background-image: linear-gradient(to right, #67A2FF 25%, #3A87FF 75%, #2178FF 100%);
     border: none;
     box-shadow: 0px 0px 20px rgba(122, 124, 252, 0.1);
     transition: all 0.3s ease 0s;

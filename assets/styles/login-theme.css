@@ -38,7 +38,7 @@ body{
         rgba(158,58,109,0.25),
         rgba(243,59,71.0,0.6)),
         url('https://picsum.photos/1920/1080/?random');
-    min-width: 50vw;
+    min-width: 60vw;
     min-height:100vh;
     height:100%;
 }
@@ -46,14 +46,14 @@ body{
 .split-right{
     display: flex;
     flex-direction:column;
-    min-width: 50vw;
+    min-width: 40vw;
     min-height:100vh;
     height:100%;
 }
 
 
 .split-right > .inner-container{
-    margin:50px;
+    margin:50px 10px 0px 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,15 +92,15 @@ Button Stlyes
     border-radius: 5px;
     background-image: linear-gradient(to right, #67A2FF 0%, #3A87FF 75%, #2178FF 100%);
     border: none;
-    box-shadow: 0px 10px 20px rgba(122, 124, 252, 0.1);
+    box-shadow: 0px 0px 20px rgba(122, 124, 252, 0.1);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
   }
   
   .btnBlue:hover {
-    box-shadow: 0px 15px 20px rgba(199, 98, 230, 0.2);
-    transform: translateY(-8px);
+    box-shadow: 0px 10px 25px rgba(199, 98, 230, 0.2);
+    transform: translateY(-1px);
   }
 
   .btnInvert {
@@ -122,6 +122,7 @@ Button Stlyes
   }
   
   .btnInvert:hover {
+    transform: translateY(-1px);
     box-shadow: 0px 0px 25px rgba(199, 98, 230, 0.2);
   }
 

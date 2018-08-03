@@ -45,10 +45,11 @@ body{
 
 .split-right{
     display: flex;
-    flex-direction:column-reverse;
+    flex-direction:column;
     min-width: 40vw;
     min-height:100vh;
     height:100%;
+    margin-left:25px;
 }
 
 

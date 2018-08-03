@@ -45,7 +45,7 @@ body{
 
 .split-right{
     display: flex;
-    flex-direction:column;
+    flex-direction:column-reverse;
     min-width: 40vw;
     min-height:100vh;
     height:100%;

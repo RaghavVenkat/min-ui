@@ -1,10 +1,62 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Open+Sans:300,400,600,700|Titillium+Web:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,500,700,700i');
 
 /* Font Family Rules 
 
 font-family: 'Titillium Web', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 
 */
+
+*{
+    /* outline: 1px solid red; */
+}
+
+body{
+    margin:0px;
+    padding: 5px;
+    box-shadow: inset 0px 20px 45px -5px rgba(247, 211, 247, 0.7);
+}
+
+.header{
+    padding:5px;
+    display: flex;
+}
+
+.productBox > ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.productBox > ul > li{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    color:#9092A6;
+    letter-spacing: 2.5px;
+    margin-right:50px;
+}
+
+.logoBox{
+    margin:10px;
+}
+
+.txtLogo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20pt;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 2.5px;
+    color: #0984e3;
+}
+
+.txtLogoSlip{
+    font-family: 'Lato', sans-serif;
+    font-size: 14pt;
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: 2.5px;
+    color: #888;
+}

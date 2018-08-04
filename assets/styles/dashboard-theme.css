@@ -24,6 +24,7 @@ body{
 .header{
     padding:5px;
     display: flex;
+    justify-content: space-between;
 }
 
 .productBox > ul{
@@ -32,11 +33,23 @@ body{
 }
 
 .productBox > ul > li{
+    margin-right:50px;
+}
+
+.productBox > ul > li > a{
+    font-size:11pt;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
-    color:#9092A6;
+    color:rgb(190, 191, 202);
     letter-spacing: 2.5px;
-    margin-right:50px;
+    text-decoration: none;
+    text-shadow: 0px 5px 13px rgba(208, 192, 223, 0.6);
+    transition: all ease-in 250ms;
+}
+
+.productBox > ul > li > a:hover{
+    color:#0984e3;
+    text-shadow: 0px 5px 13px rgba(218, 181, 253, 0.95);
 }
 
 .logoBox{
@@ -59,4 +72,51 @@ body{
     font-style: italic;
     letter-spacing: 2.5px;
     color: #888;
+}
+
+.settingsBox{
+    font-size:11pt;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 10px;
+}
+
+.blue{
+    color: #0984e3;
+    text-shadow: 0px 5px 13px rgba(218, 181, 253, 0.95);
+}
+
+.notificationBox {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: #000;
+    box-shadow: -7px 0px 53px -17px rgba(250,203,250,0.77);
+    overflow-x: hidden;
+    font-family: 'Titillium Web', sans-serif;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.notificationBox a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.notificationBox a:hover {
+    color: #f1f1f1;
+}
+
+.notificationBox .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }

@@ -8,6 +8,7 @@
     <title>Admin | Dashboard</title>
 
     <link href="assets/styles/dashboard-theme.css" type="text/css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <div class="header">
@@ -17,13 +18,35 @@
 
         <div class="productBox">
             <ul>
-                <li>Atmos</li>
-                <li>Ferry Lite</li>
-                <li>Ferry Telengana</li>
-                <li>Envea Bridgers</li>
-                <li>Other products</li>
+                <li><a href="#">Atmos</a></li>
+                <li><a href="#">Ferry Lite</a></li>
+                <li><a href="#">Ferry Premium</a></li>
+                <li><a href="#">Envea Bridgers</a></li>
+                <li><a href="#">Other products</a></li>
             </ul>
         </div>
+
+        <div class="settingsBox">
+                <a href="#" onclick="openNav()"><span class="notifications"><i class="fa fa-bell-o blue" aria-hidden="true"></i></span></a>
+        </div>
+
+        <div id="mySidenav" class="notificationBox">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+              </div>
     </div>
+
+    <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "300px";
+            }
+            
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+    </script>
 </body>
 </html>

@@ -27,21 +27,31 @@
         </div>
 
         <div class="settingsBox">
-                <a href="#" onclick="openNav()"><span class="notifications"><i class="fa fa-bell-o blue" aria-hidden="true"></i></span></a>
+                <a href="#" onclick="openNav()">
+                    <span class="notifications">
+                        <i class="fa fa-bell-o bluefa" aria-hidden="true"></i>
+                    </span>
+                </a>
+                <span class="btn btnInvert">Raghav Venkat</span>
         </div>
 
         <div id="mySidenav" class="notificationBox">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Clients</a>
-                <a href="#">Contact</a>
-              </div>
+            <div class="notificationHeader">
+                <button class="btn btnBlue" onclick="closeNav()">Notifications
+                </button>
+                
+            </div>
+            <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a> -->
+        </div>
     </div>
 
     <script>
             function openNav() {
-                document.getElementById("mySidenav").style.width = "300px";
+                document.getElementById("mySidenav").style.width = "290px";
             }
             
             function closeNav() {

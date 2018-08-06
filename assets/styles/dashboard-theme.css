@@ -337,7 +337,6 @@ PAGE CONTAINERS STYLES
 
 .containerBlock > img{
     margin:10px;
-    margin-right: 50px;
     margin-left: 50px;
     transform: rotate(20deg);
     opacity: 0.4;
@@ -345,7 +344,8 @@ PAGE CONTAINERS STYLES
 }
 
 .containerBlock > .message {
-    min-width:80%;
+    min-width:75%;
+    margin-left:25px;
 }
 
 .containerBlock > .message > h1{
@@ -365,8 +365,9 @@ PAGE CONTAINERS STYLES
 }
 
 .containerBlock > button{
-    margin-right:50px;
-    width: 250px;
+    margin-right:25px;
+    padding-right:25px;
+    width: 200px;
     padding: 10px;
     padding-left: 15px;
     font-family: 'Titillium Web', sans-serif;

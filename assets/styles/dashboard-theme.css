@@ -22,6 +22,7 @@ body{
     margin:0px;
     padding: 5px;
     box-shadow: inset 0px 20px 45px -5px rgba(247, 211, 247, 0.7);
+    background-color: #F9F9FD;
 }
 
 .header{
@@ -95,14 +96,14 @@ LOGO AREA
     margin: 10px;
 }
 
-.bluefa{
+.orangeToBluefa{
     color:rgb(190, 191, 202);
-    font-size: 1.25em !important;
+    font-size: 1.15em;
     text-shadow: 0px 5px 13px rgba(218, 181, 253, 0.95);
     transition: all ease-in 150ms;
 }
 
-.bluefa:hover{
+.orangeToBluefa:hover{
     color: #0984e3;
 }
 
@@ -123,8 +124,9 @@ NOTIFICATION PANEL
     box-shadow: inset 7px 0px 45px -15px rgba(250,203,250,0.77);
     overflow-x: hidden;
     font-family: 'Titillium Web', sans-serif;
-    transition: 0.5s;
-}
+    transition: all 1s;
+    
+}   
 
 .notificationBox a {
     text-decoration: none;
@@ -145,6 +147,10 @@ NOTIFICATION PANEL
     font-size: 36px;
 }
 
+#notificationItem{
+    transition: all ease-out 150ms; 
+}
+
 
 
 /*
@@ -163,6 +169,7 @@ NOTIFICATIONS ITEM
 
 .notificationContent > ul > li {
     display:flex;
+    justify-content: space-between;
     background-color: #FFFFFF;
     box-shadow: 0px 2px 20px rgba(122, 124, 252, 0.1);
     width: 100%;
@@ -195,6 +202,7 @@ NOTIFICATIONS ITEM
     display: flex;
     flex-direction: column;
     margin-left: 20px;
+    min-width:80px;
 }
 
 .notification > .from{
@@ -205,6 +213,7 @@ NOTIFICATIONS ITEM
     letter-spacing: 1.5px;
     text-decoration: none;
     margin-bottom:5px;
+    transition: all ease 10ms;
 }
 
 .notification > .subject{
@@ -214,6 +223,7 @@ NOTIFICATIONS ITEM
     color:#2B2C2E;
     letter-spacing: 1.5px;
     text-decoration: none;
+    transition: all ease 10ms;
 }
 
 .notification > .content{
@@ -224,6 +234,7 @@ NOTIFICATIONS ITEM
     letter-spacing: 1.5px;
     text-decoration: none;
     margin-bottom:5px;
+    transition: all ease 10ms;
 }
 
 .dismissBox{
@@ -237,6 +248,8 @@ NOTIFICATIONS ITEM
     text-decoration: none;
     margin-bottom:5px; 
 }
+
+
 /*
 ===================================================================================================================
 BUTTONS
@@ -294,6 +307,67 @@ BUTTONS
     transform: translateY(-1px);
   }
 
+
+/*
+===================================================================================================================
+PAGE CONTAINERS STYLES
+===================================================================================================================
+*/
+
+.page{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding:10px;
+    margin:25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    min-height: 50vh; 
+}
+
+.containerBlock{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    min-height:100px;
+    width:95%;
+    background-color: #1975F0;
+    box-shadow: 0px 10px 25px rgba(198, 117, 223, 0.45);
+}
+
+.containerBlock > img{
+    margin:10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    transform: rotate(20deg);
+    opacity: 0.4;
+    height: 100px;
+}
+
+.containerBlock > .message > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    color:white;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+}
+
+.containerBlock > .message > p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    color:#F9F9FD;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+}
+
+
+  /*
+===================================================================================================================
+Webkit
+===================================================================================================================
+*/
+
+
   ::-webkit-scrollbar
   {
     width: 6px;  /* for vertical scrollbars */
@@ -309,3 +383,5 @@ BUTTONS
   {
       background: #34495e;
   }
+
+

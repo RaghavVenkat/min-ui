@@ -37,13 +37,20 @@
 
         <div id="mySidenav" class="notificationBox">
             <div class="notificationHeader">
-                <button class="btn btnBlue" onclick="closeNav()">Notifications</button>
+                <button class="btnBlue" onclick="closeNav()">Notifications</button>
             </div>
 
             <div class="notificationContent">
                 <ul>
-                    <li>Dummy Notification</li>
-                    <li>Dummy Notification</li>
+                    <li>
+                        <div class="notificationIcon warning"></div>
+                        <div class="notification">
+                            <span class="from">Raghav Venkat</span>
+                            <span class="subject">Today meeting opened!</span>
+                            <span class="content">Make yourself at home, goodbye!</span>
+                        </div>
+                        <div class="dismissBox">3 mins ago</div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -51,7 +58,7 @@
 
     <script>
             function openNav() {
-                document.getElementById("mySidenav").style.width = "290px";
+                document.getElementById("mySidenav").style.width = "350px";
             }
             
             function closeNav() {

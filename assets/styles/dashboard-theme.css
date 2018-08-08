@@ -168,6 +168,7 @@ NOTIFICATIONS ITEM
 }
 
 .notificationContent > ul > li {
+    white-space: nowrap;
     display:flex;
     justify-content: space-between;
     background-color: #FFFFFF;
@@ -341,7 +342,7 @@ PAGE CONTAINERS STYLES
     margin-left: 50px;
     transform: rotate(20deg);
     opacity: 0.6;
-    height: 80px;
+    height: 60px;
 }
 
 .blockWelcome > .message {
@@ -406,7 +407,7 @@ PAGE CONTAINERS STYLES
     margin-left: 50px;
     transform: rotate(20deg);
     opacity: 0.6;
-    height: 80px;
+    height: 60px;
 }
 
 .blockWelcome > .message {
@@ -457,7 +458,7 @@ PAGE CONTAINERS STYLES
 
 /* Container Block Success */
 
-.blockSuccess{
+.blockWarning{
     display: flex;
     margin:10px;
     justify-content: space-between;
@@ -469,19 +470,19 @@ PAGE CONTAINERS STYLES
     box-shadow: 0px 10px 25px rgba(198, 117, 223, 0.45);
 }
 
-.blockSuccess > img{
+.blockWarning > img{
     margin:10px;
     margin-left: 50px;
     opacity: 0.6;
-    height: 80px;
+    height: 60px;
 }
 
-.blockSuccess > .message {
+.blockWarning > .message {
     min-width:75%;
     margin-left:25px;
 }
 
-.blockSuccess > .message > h1{
+.blockWarning > .message > h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 16pt;
     color:white;
@@ -489,7 +490,7 @@ PAGE CONTAINERS STYLES
     letter-spacing: 2.5px;
 }
 
-.blockSuccess > .message > p{
+.blockWarning > .message > p{
     font-family: 'Montserrat', sans-serif;
     font-size: 10pt;
     color:#F9F9FD;
@@ -497,7 +498,7 @@ PAGE CONTAINERS STYLES
     letter-spacing: 2.5px;
 }
 
-.blockSuccess > button{
+.blockWarning > button{
     margin-right:25px;
     padding-right:25px;
     width: 200px;
@@ -507,7 +508,7 @@ PAGE CONTAINERS STYLES
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 600;
-    color: #2F80FF;
+    color: #F57148;
     background-color: #fff;
     border-radius: 5px;
     border: none;
@@ -517,10 +518,11 @@ PAGE CONTAINERS STYLES
     outline: none;
   }
 
-  .blockSuccess > button:hover {
+  .blockWarning > button:hover {
     transform: translateY(-4px);
     box-shadow: 0px 0px 25px rgba(199, 98, 230, 0.2);
   }
+
 
 
   .blockSuccess{
@@ -539,7 +541,7 @@ PAGE CONTAINERS STYLES
     margin:10px;
     margin-left: 50px;
     opacity: 0.6;
-    height: 80px;
+    height: 60px;
 }
 
 .blockSuccess > .message {
@@ -573,7 +575,7 @@ PAGE CONTAINERS STYLES
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 600;
-    color: #2F80FF;
+    color: #F57148;
     background-color: #fff;
     border-radius: 5px;
     border: none;
@@ -605,7 +607,7 @@ PAGE CONTAINERS STYLES
     margin:10px;
     margin-left: 50px;
     opacity: 0.65;
-    height: 80px;
+    height: 60px;
 }
 
 .blockDanger > .message {
@@ -639,7 +641,7 @@ PAGE CONTAINERS STYLES
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 600;
-    color: #2F80FF;
+    color: #F77023;
     background-color: #fff;
     border-radius: 5px;
     border: none;
@@ -654,6 +656,73 @@ PAGE CONTAINERS STYLES
     box-shadow: 0px 0px 25px rgba(199, 98, 230, 0.2);
   }
 
+
+
+
+  .blockSuccess{
+    display: flex;
+    margin:10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    min-height:100px;
+    width:95%;
+    background: linear-gradient(to right, #6D8589 40%, rgb(191, 221, 201) 100%);
+    box-shadow: 0px 10px 25px rgba(198, 117, 223, 0.45);
+}
+
+.blockSuccess > img{
+    margin:10px;
+    margin-left: 50px;
+    opacity: 0.65;
+    height: 60px;
+}
+
+.blockSuccess > .message {
+    min-width:75%;
+    margin-left:25px;
+}
+
+.blockSuccess > .message > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+    color:white;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+}
+
+.blockSuccess > .message > p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    color:#F9F9FD;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+}
+
+.blockSuccess > button{
+    margin-right:25px;
+    padding-right:25px;
+    width: 200px;
+    padding: 10px;
+    padding-left: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #6D8589;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(122, 124, 252, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .blockSuccess > button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 0px 25px rgba(199, 98, 230, 0.2);
+  }
   .ripple {
     background-position: center;
     transition: background 0.8s;
@@ -673,8 +742,6 @@ PAGE CONTAINERS STYLES
 Webkit
 ===================================================================================================================
 */
-
-
   ::-webkit-scrollbar
   {
     width: 6px;  /* for vertical scrollbars */
@@ -691,4 +758,58 @@ Webkit
       background: #34495e;
   }
 
+  /*
+===================================================================================================================
+Table Styles
+===================================================================================================================
+*/
+
+.cozyTableBasic {
+    margin:10px;    
+    width: 95%;
+    background-color: #F9F9FD;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cozyTableBasic h2{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 15pt;
+    color:#8B94A5;
+}
+
+.cozyTableBasic table{
+    width: 100%;
+    box-shadow: 0px 8px 30px rgba(199, 98, 230, 0.2);
+}
+.cozyTableBasic tr{
+    background-color: #F9F9FD;
+    border: 0px solid #eee;
+    transition: 150ms;
+}
+.cozyTableBasic td{
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(121, 122, 128);
+    letter-spacing: 1.5px;
+    font-size: 10pt;
+    text-align: left;
+    padding:10px;
+    padding-left: 15px;
+    transition: 250ms;
+}
+
+.cozyTableBasic tr:hover{
+    color:rgb(1, 2, 7);
+    background-color:#fff;
+}
+.cozyTableBasic th {
+    background-color: #fff;
+    color:#0984e3;
+    text-shadow: 0px 5px 15px rgba(218, 181, 253, 0.7);
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1.5px;
+    padding: 15px;
+    font-size: 12pt;
+    text-align: left;
+}
 

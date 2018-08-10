@@ -841,7 +841,7 @@ Cards
 }
 
 .card-single .amount{
-    margin:50px 0px 5px 25px;    
+    margin:25px 0px 5px 25px;    
    font-family: 'Montserrat', sans-serif;
     font-size: 25pt;
     letter-spacing: 2px;
@@ -867,6 +867,63 @@ Cards
     letter-spacing: 2px;
     font-weight: 600;
 }
+
+.card-single .title{
+    text-align: center;
+    margin:20px; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color:rgb(149, 170, 173);
+}
+
+.card-single .rate{
+    text-align: center;
+    margin:20px; 
+    padding:10px;
+    font-weight: 600;
+}
+
+.card-single .rate .circle{
+    text-align: center;
+    padding:25px;
+    border-radius: 25%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 2px;
+    color:#FFCC11;
+    font-weight: 600;
+    background-color: rgba(245, 221, 83, 0.2);
+}
+
+.card-single .black-center-text{
+    text-align: center;
+    margin:20px; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+}
+
+.card-single .blue-center-text-small{
+    text-align: center;
+    margin:10px; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color:#6eb9f7;
+    transition: 250ms;
+}
+
+.card-single .blue-center-text-small:hover{
+    color:#0984e3;
+    text-shadow: 0px 5px 13px rgba(218, 181, 253, 0.95);
+}
+
 
 /*
 ===================================================================================================================

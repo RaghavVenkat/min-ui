@@ -200,14 +200,15 @@
                     <span class="black-center-text">
                         Balanced!
                     </span>
-                    <span class="blue-center-text-small">
+                    <span onclick="myFunction()" class="blue-center-text-small">
                             See risk management plans
                     </span>
                 </div>
             </div>
            
-        </div>
+            <div id="toast">Please wait while loading!</div>
 
+        </div>
     <script>
             function openNav() {
                 document.getElementById("mySidenav").style.width = "350px";
@@ -215,6 +216,12 @@
             
             function closeNav() {
                 document.getElementById("mySidenav").style.width = "0";
+            }
+
+            function myFunction() {
+                var x = document.getElementById("toast");
+                x.className = "show";
+                setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
             }
     </script>
 </body>

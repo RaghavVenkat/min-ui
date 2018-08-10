@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Admin | Dashboard</title>
 
+    <link rel="icon" href="assets/imgs/fav.png" type="image/png">
     <link href="assets/styles/dashboard-theme.css" type="text/css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
 </head>
@@ -69,6 +70,8 @@
         </div>
     </div>
 
+
+
 <!-- 
     ===============================================================================================================================================================
     PAGE CONTAINER
@@ -76,6 +79,17 @@
  -->
 
    <div class="page">
+        <div class="menubar">
+                <a href="#home"><i class="fa fa-tachometer fa-2x"></i></a>
+                <a href="#employees"><i class="fa fa-address-card fa-2x"></i></a>
+                <a href="#customers"><i class="fa fa-user fa-2x"></i></a>
+                <a href="#suite"><i class="fa fa-briefcase fa-2x"></i></a>
+                <a href="#revenue"><i class="fa fa-credit-card-alt fa-2x"></i></a>
+                <a href="#settings"><i class="fa fa-cog fa-2x"></i></a>
+            </div>
+            
+            <h2>Smart Notifications</h2>
+
         <div class="blockWelcome">
             <img src="assets/imgs/vectors/confetti.svg">
             <span class="message">
@@ -109,8 +123,10 @@
             </span>
             <button>Dismiss</button>
         </div> -->
+        <h2>Cozy Static Table</h2>
+
       <div class="cozyTableBasic">
-          <h2>Cozy Static Table</h2>
+
             <table>
                 <tr>
                   <th>Customer ID</th>
@@ -150,7 +166,30 @@
               </table>
             </div>
 
-   </div>
+            <h2>Cards</h2>
+
+            <div class="slotBox3">
+                <div class="card-single">
+                    <span class="amount">
+                        $ 50,000
+                    </span>
+                    <span class="deposit">
+                        Deposit: $3,500
+                    </span>
+                    <br>
+                    <span class="intrest">
+                            + 5.2% ($456)
+                    </span>
+                    <br>
+                   <center>
+                       <button class="btnPrimary">Add Funds</button>
+                       <button class="btnDefault">Dismiss</button>
+                    </center> 
+                </div>
+                
+            </div>
+           
+        </div>
 
     <script>
             function openNav() {

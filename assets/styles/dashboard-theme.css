@@ -124,11 +124,11 @@ NOTIFICATION PANEL
     z-index: 1;
     top: 0;
     right: 0;
-    background: #F6F7FB;
+    background: rgba(246, 247, 251, 0.699);
     box-shadow: inset 7px 0px 45px -15px rgba(250,203,250,0.77);
     overflow-x: hidden;
     font-family: 'Titillium Web', sans-serif;
-    transition: all 1s;
+    transition: all 250ms;
     
 }   
 
@@ -137,7 +137,7 @@ NOTIFICATION PANEL
     font-size: 25px;
     color: #fff;
     display: block;
-    transition: 0.3s;
+    transition: 250ms;
 }
 
 .notificationBox a:hover {
@@ -184,6 +184,7 @@ NOTIFICATIONS ITEM
     padding-left:0px;
     transition: all ease-in 250ms;
     margin-bottom: -1px;
+    cursor: pointer;
 }
 
 .notificationContent > ul > li:hover {
@@ -1307,7 +1308,6 @@ Progress Bars
 .progress-bar-filler{
     box-shadow: inset 0px 20px 45px -5px #0c7ace;
     margin: 0px;
-    width: 60%;
     height: 15px;
     background-color: #0a8bee;
     transition: all ease-in 350ms;
@@ -1315,11 +1315,27 @@ Progress Bars
 
 .progress-bar-filler-green{
     margin: 0px;
-    width: 30%;
     height: 15px;
     background-color: #0aee56;
 }
 
+.progress-bar-filler-mint{
+    margin: 0px;
+    height: 15px;
+    background-color: #00b894;
+}
+
+.progress-bar-filler-river{
+    margin: 0px;
+    height: 15px;
+    background-color: #636e72;
+}
+
+.progress-bar-filler-dracula{
+    margin: 0px;
+    height: 15px;
+    background-color: #2d3436;
+}
 
 .btn-progress-cancel{
     width: 15vw;

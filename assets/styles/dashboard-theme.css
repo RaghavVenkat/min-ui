@@ -985,8 +985,10 @@ Cards
     width:100%;
     min-height: 350px;
     margin:5px;
+    padding:20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .card-single-thin-block{
@@ -995,6 +997,7 @@ Cards
     width:100%;
     min-height: 150px;
     margin:5px;
+    padding:10px;
     display: flex;
     flex-direction: column;
 }
@@ -1111,6 +1114,72 @@ Webkit
   }
 
 
+
+  /*
+===================================================================================================================
+Typographs
+===================================================================================================================
+*/
+
+h1{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 30pt;   
+    color:#8B94A5;
+}
+
+
+h2{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 25pt;   
+    color:#8B94A5;
+}
+
+h3{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 20pt;   
+    color:#8B94A5;
+}
+
+
+h4{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 15pt;   
+    color:#8B94A5;
+}
+
+
+h5{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 12pt;   
+    color:#8B94A5;
+}
+
+
+h6{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 12pt;   
+    color:#8B94A5;
+}
+
+.slim-text{
+    
+}
+
+.h2-thin{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 13pt;
+    color:#8B94A5;
+}
+
+
+
   /*
 ===================================================================================================================
 Table Styles
@@ -1221,13 +1290,6 @@ Table Styles
     text-align: left;
 }
 
-h2{
-    
-    font-family: 'Titillium Web', sans-serif;
-    letter-spacing: 1.5px;
-    font-size: 15pt;
-    color:#8B94A5;
-}
 
 /*
 ===================================================================================================================

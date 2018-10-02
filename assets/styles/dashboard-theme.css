@@ -1163,12 +1163,34 @@ h5{
 h6{
     font-family: 'Titillium Web', sans-serif;
     letter-spacing: 1.5px;
-    font-size: 12pt;   
+    font-size: 12pt; 
+    font-weight: 300;  
     color:#8B94A5;
 }
 
 .slim-text{
-    
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 12pt; 
+    font-weight: 300;  
+    color:#8B94A5;
+}
+
+.slim-text-bold{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 12pt; 
+    font-weight: 800;  
+    color:#8B94A5;
+}
+
+.slim-text-italics{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 12pt; 
+    font-style: italic;
+    font-weight: 300;  
+    color:#8B94A5;
 }
 
 .h2-thin{
@@ -1178,7 +1200,30 @@ h6{
     color:#8B94A5;
 }
 
+blockquote {
+    background: #f9f9f9;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 12pt; 
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
 
+ blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+blockquote p {
+    display: inline;
+  }
+  
 
   /*
 ===================================================================================================================

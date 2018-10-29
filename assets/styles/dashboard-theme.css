@@ -836,6 +836,13 @@ Cards
     justify-content: space-between;
 }
 
+.slotBox-centered{
+    display: flex;
+    width:95%;
+    margin:10px;
+    justify-content: space-around;
+}
+
 .card-single{
     background-color: #fff;
     box-shadow: 0px 0px 20px rgba(122, 124, 252, 0.1);

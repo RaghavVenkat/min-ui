@@ -7,10 +7,9 @@
   - Built with pure HTML and CSS
   - This is not a responsive design.
 
-#UI Components list
+# UI Components list
 
-> 
-- Smart Notification banners
+> - Smart Notification banners
 - Floating side menu bar
 - Navbar
 - Cozy Static Table

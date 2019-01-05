@@ -22,6 +22,6 @@ HUDmin is a collection of modular UI components and layouts for building an inst
 > - Basic flat form elements
 
 
-[Live Preview](https://levelupvr.herokuapp.com/)  |  [Git Repo](https://github.com/RaghavVenkat/min-ui)
+[Live Preview](https://hudmin.herokuapp.com/)  |  [Git Repo](https://github.com/RaghavVenkat/min-ui)
 
 Feel free to use this template. It would be really great if you provide a fair credit :)
